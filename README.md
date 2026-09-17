@@ -4,7 +4,7 @@ The article and the report tool that goes with it.
 
 | file | what |
 |---|---|
-| `article.pdf`, `article.md` | the article (typeset, and its Markdown source) |
+| `article.pdf`, `article.md`, `article.html` | the article: typeset, its Markdown source, and the HTML rendering (for pasting into a publishing platform) |
 | `fig1_sequences.png`, `fig2_pvalue_grid.png`, `fig3_calibration.png` | the article's three figures |
 | `sequence_report.py` | one CSV in, one PDF report out: data checks, a reserved period, baselines, the diagnostics with their nulls, and, given a threshold-type event and costs, the probability check, the risk by time of the cycle, the scale-up / scale-down levels and the policy comparison on the reserved period, every section explained in plain words |
 | `randomness_toolkit.py` | the diagnostics the report script uses (its only local dependency) |
